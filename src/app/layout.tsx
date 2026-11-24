@@ -12,7 +12,7 @@ import { assetUrl, BASE_PATH } from "@/lib/asset";
 
 const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || STUDIO.url;
 const SITE_URL = `${SITE_ORIGIN}${BASE_PATH}`;
-const OG_IMAGE_URL = `${SITE_ORIGIN}${assetUrl("/assets/images/og-share.jpg?v=3")}`;
+const OG_IMAGE_URL = `${SITE_ORIGIN}${assetUrl("/assets/images/babell-preview.jpg")}`;
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
