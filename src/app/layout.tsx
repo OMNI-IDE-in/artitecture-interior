@@ -8,7 +8,11 @@ import { Footer } from "@/components/layout/Footer";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { RevealObserver } from "@/components/layout/RevealObserver";
 import { STUDIO } from "@/data/site";
-import { assetUrl } from "@/lib/asset";
+import { assetUrl, BASE_PATH } from "@/lib/asset";
+
+const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || STUDIO.url;
+const SITE_URL = `${SITE_ORIGIN}${BASE_PATH}`;
+const OG_IMAGE_URL = `${SITE_ORIGIN}${assetUrl("/assets/images/og-share.jpg?v=3")}`;
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -26,7 +30,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(STUDIO.url),
+  metadataBase: new URL(SITE_ORIGIN),
   title: {
     default: `${STUDIO.name} — Design. Build. Deliver. Architecture & Bespoke Interior Atelier`,
     template: `%s — ${STUDIO.name}`,
@@ -37,19 +41,29 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   openGraph: {
     siteName: STUDIO.name,
+    url: `${SITE_URL}/`,
     title: `${STUDIO.name} — Design. Build. Deliver. Architecture & Bespoke Interior Atelier`,
     description:
       "Babell Group — complete architectural interior design and white-glove turnkey execution for luxury residences and commercial flagships across Bengaluru, Mumbai, and India.",
     type: "website",
     locale: "en_IN",
-    images: [{ url: assetUrl("/assets/images/og-share.jpg"), width: 1200, height: 630 }],
+    images: [
+      {
+        url: OG_IMAGE_URL,
+        secureUrl: OG_IMAGE_URL,
+        width: 1200,
+        height: 630,
+        type: "image/jpeg",
+        alt: `${STUDIO.name} — ${STUDIO.tagline}`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${STUDIO.name} — Design. Build. Deliver. Architecture & Bespoke Interior Atelier`,
     description:
       "Babell Group — architectural interior design and turnkey execution across Bengaluru, Mumbai, and India.",
-    images: [assetUrl("/assets/images/og-share.jpg")],
+    images: [OG_IMAGE_URL],
   },
   icons: {
     icon: [

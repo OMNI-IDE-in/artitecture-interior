@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
 const repoBasePath = isGitHubPages ? "/artitecture-interior" : "";
+const siteOrigin = isGitHubPages ? "https://omni-ide-in.github.io" : "https://babellgroup.com";
 
 const nextConfig: NextConfig = {
   outputFileTracingRoot: path.join(__dirname),
@@ -34,6 +35,7 @@ const nextConfig: NextConfig = {
       }),
   env: {
     NEXT_PUBLIC_BASE_PATH: repoBasePath,
+    NEXT_PUBLIC_SITE_ORIGIN: siteOrigin,
   },
   images: {
     unoptimized: true,
