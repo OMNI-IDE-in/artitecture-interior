@@ -1,0 +1,872 @@
+{
+  "zion-hills-villa": {
+    "slug": "zion-hills-villa",
+    "title": "Zion Hills — 2 BHK Villa",
+    "location": "Bangarpet",
+    "categoryLabel": "Residential",
+    "heroImage": {
+      "src": "/assets/portfolio/zion-hills-villa/livinng-1600.webp",
+      "srcset": "/assets/portfolio/zion-hills-villa/livinng-400.webp 400w, /assets/portfolio/zion-hills-villa/livinng-800.webp 800w, /assets/portfolio/zion-hills-villa/livinng-1600.webp 1600w",
+      "alt": "Zion Hills — 2 BHK Villa — Residential interior design in Bangarpet"
+    },
+    "facts": [
+      {
+        "label": "Location",
+        "value": "Bangarpet"
+      },
+      {
+        "label": "Project type",
+        "value": "Residential"
+      },
+      {
+        "label": "Areas designed",
+        "value": "11"
+      },
+      {
+        "label": "Views in gallery",
+        "value": "14"
+      }
+    ],
+    "intros": [
+      "A complete two-bedroom villa interior at Gulf Zion Hills, Bangarpet, designed and executed end to end.",
+      "Designed and executed in-house by Babell Group — from space planning and 3D visualisation through material selection, installation and handover."
+    ],
+    "whatsappHref": "https://wa.me/919845325913?text=Hi%21%20I%20saw%20the%20Zion%20Hills%20%E2%80%94%202%20BHK%20Villa%20project%20on%20your%20website%20and%20would%20like%20to%20discuss%20something%20similar.",
+    "areas": [
+      "Entry lobby",
+      "Living room",
+      "Dining",
+      "TV unit",
+      "Modular kitchen",
+      "Master bedroom",
+      "Master wardrobe & dressing",
+      "Kids' bedroom",
+      "Kids' study & wardrobe",
+      "Study area",
+      "Utility"
+    ],
+    "shots": [
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/livinng-1600.webp",
+        "caption": "Living Room",
+        "src": "/assets/portfolio/zion-hills-villa/livinng-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/livinng-400.webp 400w, /assets/portfolio/zion-hills-villa/livinng-800.webp 800w, /assets/portfolio/zion-hills-villa/livinng-1600.webp 1600w",
+        "alt": "Living Room — Zion Hills — 2 BHK Villa",
+        "label": "Living Room",
+        "wide": false,
+        "key": "livinng"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/entry-lobby-1600.webp",
+        "caption": "Entry Lobby",
+        "src": "/assets/portfolio/zion-hills-villa/entry-lobby-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/entry-lobby-400.webp 400w, /assets/portfolio/zion-hills-villa/entry-lobby-800.webp 800w, /assets/portfolio/zion-hills-villa/entry-lobby-1600.webp 1600w",
+        "alt": "Entry Lobby — Zion Hills — 2 BHK Villa",
+        "label": "Entry Lobby",
+        "wide": false,
+        "key": "entry-lobby"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/tv-unit-1600.webp",
+        "caption": "TV Unit",
+        "src": "/assets/portfolio/zion-hills-villa/tv-unit-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/tv-unit-400.webp 400w, /assets/portfolio/zion-hills-villa/tv-unit-800.webp 800w, /assets/portfolio/zion-hills-villa/tv-unit-1600.webp 1600w",
+        "alt": "TV Unit — Zion Hills — 2 BHK Villa",
+        "label": "TV Unit",
+        "wide": false,
+        "key": "tv-unit"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/dining-1600.webp",
+        "caption": "Dining",
+        "src": "/assets/portfolio/zion-hills-villa/dining-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/dining-400.webp 400w, /assets/portfolio/zion-hills-villa/dining-800.webp 800w, /assets/portfolio/zion-hills-villa/dining-1600.webp 1600w",
+        "alt": "Dining — Zion Hills — 2 BHK Villa",
+        "label": "Dining",
+        "wide": false,
+        "key": "dining"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/kitchen-1-1600.webp",
+        "caption": "Kitchen 1",
+        "src": "/assets/portfolio/zion-hills-villa/kitchen-1-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/kitchen-1-400.webp 400w, /assets/portfolio/zion-hills-villa/kitchen-1-800.webp 800w, /assets/portfolio/zion-hills-villa/kitchen-1-1600.webp 1600w",
+        "alt": "Kitchen 1 — Zion Hills — 2 BHK Villa",
+        "label": "Kitchen 1",
+        "wide": false,
+        "key": "kitchen-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/kitchen-2-1600.webp",
+        "caption": "Kitchen 2",
+        "src": "/assets/portfolio/zion-hills-villa/kitchen-2-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/kitchen-2-400.webp 400w, /assets/portfolio/zion-hills-villa/kitchen-2-800.webp 800w, /assets/portfolio/zion-hills-villa/kitchen-2-1600.webp 1600w",
+        "alt": "Kitchen 2 — Zion Hills — 2 BHK Villa",
+        "label": "Kitchen 2",
+        "wide": false,
+        "key": "kitchen-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/kitchen-3-1600.webp",
+        "caption": "Kitchen 3",
+        "src": "/assets/portfolio/zion-hills-villa/kitchen-3-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/kitchen-3-400.webp 400w, /assets/portfolio/zion-hills-villa/kitchen-3-800.webp 800w, /assets/portfolio/zion-hills-villa/kitchen-3-1600.webp 1600w",
+        "alt": "Kitchen 3 — Zion Hills — 2 BHK Villa",
+        "label": "Kitchen 3",
+        "wide": false,
+        "key": "kitchen-3"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/master-bedroom-1600.webp",
+        "caption": "Master Bedroom",
+        "src": "/assets/portfolio/zion-hills-villa/master-bedroom-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/master-bedroom-400.webp 400w, /assets/portfolio/zion-hills-villa/master-bedroom-800.webp 800w, /assets/portfolio/zion-hills-villa/master-bedroom-1600.webp 1600w",
+        "alt": "Master Bedroom — Zion Hills — 2 BHK Villa",
+        "label": "Master Bedroom",
+        "wide": false,
+        "key": "master-bedroom"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-1600.webp",
+        "caption": "Master Bedroom — Wardrobe",
+        "src": "/assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-400.webp 400w, /assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-800.webp 800w, /assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-1600.webp 1600w",
+        "alt": "Master Bedroom — Wardrobe — Zion Hills — 2 BHK Villa",
+        "label": "Master Bedroom — Wardrobe",
+        "wide": false,
+        "key": "master-bedroom-wardrobe"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/master-bedroom-dressing-1600.webp",
+        "caption": "Master Bedroom — Dressing",
+        "src": "/assets/portfolio/zion-hills-villa/master-bedroom-dressing-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/master-bedroom-dressing-400.webp 400w, /assets/portfolio/zion-hills-villa/master-bedroom-dressing-800.webp 800w, /assets/portfolio/zion-hills-villa/master-bedroom-dressing-1600.webp 1600w",
+        "alt": "Master Bedroom — Dressing — Zion Hills — 2 BHK Villa",
+        "label": "Master Bedroom — Dressing",
+        "wide": false,
+        "key": "master-bedroom-dressing"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/kids-bedroom-wardrobe-1600.webp",
+        "caption": "Kids' Bedroom — Wardrobe",
+        "src": "/assets/portfolio/zion-hills-villa/kids-bedroom-wardrobe-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/kids-bedroom-wardrobe-400.webp 400w, /assets/portfolio/zion-hills-villa/kids-bedroom-wardrobe-800.webp 800w, /assets/portfolio/zion-hills-villa/kids-bedroom-wardrobe-1600.webp 1600w",
+        "alt": "Kids' Bedroom — Wardrobe — Zion Hills — 2 BHK Villa",
+        "label": "Kids' Bedroom — Wardrobe",
+        "wide": false,
+        "key": "kids-bedroom-wardrobe"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/kids-bedroom-study-and-dressing-1600.webp",
+        "caption": "Kids' Bedroom — Study & Dressing",
+        "src": "/assets/portfolio/zion-hills-villa/kids-bedroom-study-and-dressing-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/kids-bedroom-study-and-dressing-400.webp 400w, /assets/portfolio/zion-hills-villa/kids-bedroom-study-and-dressing-800.webp 800w, /assets/portfolio/zion-hills-villa/kids-bedroom-study-and-dressing-1600.webp 1600w",
+        "alt": "Kids' Bedroom — Study & Dressing — Zion Hills — 2 BHK Villa",
+        "label": "Kids' Bedroom — Study & Dressing",
+        "wide": false,
+        "key": "kids-bedroom-study-and-dressing"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/study-area-1600.webp",
+        "caption": "Study Area",
+        "src": "/assets/portfolio/zion-hills-villa/study-area-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/study-area-400.webp 400w, /assets/portfolio/zion-hills-villa/study-area-800.webp 800w, /assets/portfolio/zion-hills-villa/study-area-1600.webp 1600w",
+        "alt": "Study Area — Zion Hills — 2 BHK Villa",
+        "label": "Study Area",
+        "wide": false,
+        "key": "study-area"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/zion-hills-villa/utility-1600.webp",
+        "caption": "Utility",
+        "src": "/assets/portfolio/zion-hills-villa/utility-800.webp",
+        "srcset": "/assets/portfolio/zion-hills-villa/utility-400.webp 400w, /assets/portfolio/zion-hills-villa/utility-800.webp 800w, /assets/portfolio/zion-hills-villa/utility-1600.webp 1600w",
+        "alt": "Utility — Zion Hills — 2 BHK Villa",
+        "label": "Utility",
+        "wide": false,
+        "key": "utility"
+      }
+    ],
+    "nextProject": null
+  },
+  "chennai-1bhk": {
+    "slug": "chennai-1bhk",
+    "title": "1 BHK Flat Interiors",
+    "location": "Chennai",
+    "categoryLabel": "Residential",
+    "heroImage": {
+      "src": "/assets/portfolio/chennai-1bhk/living-1600.webp",
+      "srcset": "/assets/portfolio/chennai-1bhk/living-400.webp 400w, /assets/portfolio/chennai-1bhk/living-800.webp 800w, /assets/portfolio/chennai-1bhk/living-1600.webp 1600w",
+      "alt": "1 BHK Flat Interiors — Residential interior design in Chennai"
+    },
+    "facts": [
+      {
+        "label": "Location",
+        "value": "Chennai"
+      },
+      {
+        "label": "Project type",
+        "value": "Residential"
+      },
+      {
+        "label": "Areas designed",
+        "value": "9"
+      },
+      {
+        "label": "Views in gallery",
+        "value": "25"
+      }
+    ],
+    "intros": [
+      "A compact one-bedroom flat in Chennai, planned around getting full use out of a small carpet area. The dining and TV areas were visualised under both day and evening lighting before execution.",
+      "Designed and executed in-house by Babell Group — from space planning and 3D visualisation through material selection, installation and handover."
+    ],
+    "whatsappHref": "https://wa.me/919845325913?text=Hi%21%20I%20saw%20the%201%20BHK%20Flat%20Interiors%20project%20on%20your%20website%20and%20would%20like%20to%20discuss%20something%20similar.",
+    "areas": [
+      "Living & L-seating",
+      "Dining",
+      "TV unit",
+      "Modular kitchen",
+      "Bedroom",
+      "Two bathrooms",
+      "Two balconies",
+      "Main door",
+      "Utility"
+    ],
+    "shots": [
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/living-1600.webp",
+        "caption": "Living Room",
+        "src": "/assets/portfolio/chennai-1bhk/living-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/living-400.webp 400w, /assets/portfolio/chennai-1bhk/living-800.webp 800w, /assets/portfolio/chennai-1bhk/living-1600.webp 1600w",
+        "alt": "Living Room — 1 BHK Flat Interiors",
+        "label": "Living Room",
+        "wide": false,
+        "key": "living"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/l-seating-day-1600.webp",
+        "caption": "L-Seating Area",
+        "src": "/assets/portfolio/chennai-1bhk/l-seating-day-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/l-seating-day-400.webp 400w, /assets/portfolio/chennai-1bhk/l-seating-day-800.webp 800w, /assets/portfolio/chennai-1bhk/l-seating-day-1600.webp 1600w",
+        "alt": "L-Seating Area — 1 BHK Flat Interiors",
+        "label": "L-Seating Area",
+        "wide": false,
+        "key": "l-seating-day"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/l2-1600.webp",
+        "caption": "Living Area",
+        "src": "/assets/portfolio/chennai-1bhk/l2-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/l2-400.webp 400w, /assets/portfolio/chennai-1bhk/l2-800.webp 800w, /assets/portfolio/chennai-1bhk/l2-1600.webp 1600w",
+        "alt": "Living Area — 1 BHK Flat Interiors",
+        "label": "Living Area",
+        "wide": false,
+        "key": "l2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/tv-day-1600.webp",
+        "caption": "TV Unit — Day",
+        "src": "/assets/portfolio/chennai-1bhk/tv-day-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/tv-day-400.webp 400w, /assets/portfolio/chennai-1bhk/tv-day-800.webp 800w, /assets/portfolio/chennai-1bhk/tv-day-1600.webp 1600w",
+        "alt": "TV Unit — Day — 1 BHK Flat Interiors",
+        "label": "TV Unit — Day",
+        "wide": false,
+        "key": "tv-day"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/tv-night-1600.webp",
+        "caption": "TV Unit — Evening",
+        "src": "/assets/portfolio/chennai-1bhk/tv-night-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/tv-night-400.webp 400w, /assets/portfolio/chennai-1bhk/tv-night-800.webp 800w, /assets/portfolio/chennai-1bhk/tv-night-1600.webp 1600w",
+        "alt": "TV Unit — Evening — 1 BHK Flat Interiors",
+        "label": "TV Unit — Evening",
+        "wide": false,
+        "key": "tv-night"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/dining-day-1600.webp",
+        "caption": "Dining — Day",
+        "src": "/assets/portfolio/chennai-1bhk/dining-day-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/dining-day-400.webp 400w, /assets/portfolio/chennai-1bhk/dining-day-800.webp 800w, /assets/portfolio/chennai-1bhk/dining-day-1600.webp 1600w",
+        "alt": "Dining — Day — 1 BHK Flat Interiors",
+        "label": "Dining — Day",
+        "wide": false,
+        "key": "dining-day"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/dining-night-1600.webp",
+        "caption": "Dining — Evening",
+        "src": "/assets/portfolio/chennai-1bhk/dining-night-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/dining-night-400.webp 400w, /assets/portfolio/chennai-1bhk/dining-night-800.webp 800w, /assets/portfolio/chennai-1bhk/dining-night-1600.webp 1600w",
+        "alt": "Dining — Evening — 1 BHK Flat Interiors",
+        "label": "Dining — Evening",
+        "wide": false,
+        "key": "dining-night"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/main-door-1600.webp",
+        "caption": "Main Door",
+        "src": "/assets/portfolio/chennai-1bhk/main-door-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/main-door-400.webp 400w, /assets/portfolio/chennai-1bhk/main-door-800.webp 800w, /assets/portfolio/chennai-1bhk/main-door-1600.webp 1600w",
+        "alt": "Main Door — 1 BHK Flat Interiors",
+        "label": "Main Door",
+        "wide": false,
+        "key": "main-door"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/bedroom-1-1600.webp",
+        "caption": "Bedroom 1",
+        "src": "/assets/portfolio/chennai-1bhk/bedroom-1-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/bedroom-1-400.webp 400w, /assets/portfolio/chennai-1bhk/bedroom-1-800.webp 800w, /assets/portfolio/chennai-1bhk/bedroom-1-1600.webp 1600w",
+        "alt": "Bedroom 1 — 1 BHK Flat Interiors",
+        "label": "Bedroom 1",
+        "wide": false,
+        "key": "bedroom-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/bedroom-2-1600.webp",
+        "caption": "Bedroom 2",
+        "src": "/assets/portfolio/chennai-1bhk/bedroom-2-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/bedroom-2-400.webp 400w, /assets/portfolio/chennai-1bhk/bedroom-2-800.webp 800w, /assets/portfolio/chennai-1bhk/bedroom-2-1600.webp 1600w",
+        "alt": "Bedroom 2 — 1 BHK Flat Interiors",
+        "label": "Bedroom 2",
+        "wide": false,
+        "key": "bedroom-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/bedroom-3-1600.webp",
+        "caption": "Bedroom 3",
+        "src": "/assets/portfolio/chennai-1bhk/bedroom-3-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/bedroom-3-400.webp 400w, /assets/portfolio/chennai-1bhk/bedroom-3-800.webp 800w, /assets/portfolio/chennai-1bhk/bedroom-3-1600.webp 1600w",
+        "alt": "Bedroom 3 — 1 BHK Flat Interiors",
+        "label": "Bedroom 3",
+        "wide": false,
+        "key": "bedroom-3"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/b1-1600.webp",
+        "caption": "Bedroom Detail",
+        "src": "/assets/portfolio/chennai-1bhk/b1-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/b1-400.webp 400w, /assets/portfolio/chennai-1bhk/b1-800.webp 800w, /assets/portfolio/chennai-1bhk/b1-1600.webp 1600w",
+        "alt": "Bedroom Detail — 1 BHK Flat Interiors",
+        "label": "Bedroom Detail",
+        "wide": false,
+        "key": "b1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/b2-1600.webp",
+        "caption": "Bedroom Detail",
+        "src": "/assets/portfolio/chennai-1bhk/b2-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/b2-400.webp 400w, /assets/portfolio/chennai-1bhk/b2-800.webp 800w, /assets/portfolio/chennai-1bhk/b2-1600.webp 1600w",
+        "alt": "Bedroom Detail — 1 BHK Flat Interiors",
+        "label": "Bedroom Detail",
+        "wide": false,
+        "key": "b2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/kitchen-1-1600.webp",
+        "caption": "Kitchen 1",
+        "src": "/assets/portfolio/chennai-1bhk/kitchen-1-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/kitchen-1-400.webp 400w, /assets/portfolio/chennai-1bhk/kitchen-1-800.webp 800w, /assets/portfolio/chennai-1bhk/kitchen-1-1600.webp 1600w",
+        "alt": "Kitchen 1 — 1 BHK Flat Interiors",
+        "label": "Kitchen 1",
+        "wide": false,
+        "key": "kitchen-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/kitchen-2-1600.webp",
+        "caption": "Kitchen 2",
+        "src": "/assets/portfolio/chennai-1bhk/kitchen-2-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/kitchen-2-400.webp 400w, /assets/portfolio/chennai-1bhk/kitchen-2-800.webp 800w, /assets/portfolio/chennai-1bhk/kitchen-2-1600.webp 1600w",
+        "alt": "Kitchen 2 — 1 BHK Flat Interiors",
+        "label": "Kitchen 2",
+        "wide": false,
+        "key": "kitchen-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/kitchen-3-1600.webp",
+        "caption": "Kitchen 3",
+        "src": "/assets/portfolio/chennai-1bhk/kitchen-3-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/kitchen-3-400.webp 400w, /assets/portfolio/chennai-1bhk/kitchen-3-800.webp 800w, /assets/portfolio/chennai-1bhk/kitchen-3-1600.webp 1600w",
+        "alt": "Kitchen 3 — 1 BHK Flat Interiors",
+        "label": "Kitchen 3",
+        "wide": false,
+        "key": "kitchen-3"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/k1-1600.webp",
+        "caption": "Kitchen Detail",
+        "src": "/assets/portfolio/chennai-1bhk/k1-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/k1-400.webp 400w, /assets/portfolio/chennai-1bhk/k1-800.webp 800w, /assets/portfolio/chennai-1bhk/k1-1600.webp 1600w",
+        "alt": "Kitchen Detail — 1 BHK Flat Interiors",
+        "label": "Kitchen Detail",
+        "wide": false,
+        "key": "k1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/k2-1600.webp",
+        "caption": "Kitchen Detail",
+        "src": "/assets/portfolio/chennai-1bhk/k2-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/k2-400.webp 400w, /assets/portfolio/chennai-1bhk/k2-800.webp 800w, /assets/portfolio/chennai-1bhk/k2-1600.webp 1600w",
+        "alt": "Kitchen Detail — 1 BHK Flat Interiors",
+        "label": "Kitchen Detail",
+        "wide": false,
+        "key": "k2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/k3-1600.webp",
+        "caption": "Kitchen Detail",
+        "src": "/assets/portfolio/chennai-1bhk/k3-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/k3-400.webp 400w, /assets/portfolio/chennai-1bhk/k3-800.webp 800w, /assets/portfolio/chennai-1bhk/k3-1600.webp 1600w",
+        "alt": "Kitchen Detail — 1 BHK Flat Interiors",
+        "label": "Kitchen Detail",
+        "wide": false,
+        "key": "k3"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/bathroom-1-1600.webp",
+        "caption": "Bathroom 1",
+        "src": "/assets/portfolio/chennai-1bhk/bathroom-1-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/bathroom-1-400.webp 400w, /assets/portfolio/chennai-1bhk/bathroom-1-800.webp 800w, /assets/portfolio/chennai-1bhk/bathroom-1-1600.webp 1600w",
+        "alt": "Bathroom 1 — 1 BHK Flat Interiors",
+        "label": "Bathroom 1",
+        "wide": false,
+        "key": "bathroom-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/bathroom-2-1600.webp",
+        "caption": "Bathroom 2",
+        "src": "/assets/portfolio/chennai-1bhk/bathroom-2-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/bathroom-2-400.webp 400w, /assets/portfolio/chennai-1bhk/bathroom-2-800.webp 800w, /assets/portfolio/chennai-1bhk/bathroom-2-1600.webp 1600w",
+        "alt": "Bathroom 2 — 1 BHK Flat Interiors",
+        "label": "Bathroom 2",
+        "wide": false,
+        "key": "bathroom-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/balcony-1-1600.webp",
+        "caption": "Balcony 1",
+        "src": "/assets/portfolio/chennai-1bhk/balcony-1-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/balcony-1-400.webp 400w, /assets/portfolio/chennai-1bhk/balcony-1-800.webp 800w, /assets/portfolio/chennai-1bhk/balcony-1-1600.webp 1600w",
+        "alt": "Balcony 1 — 1 BHK Flat Interiors",
+        "label": "Balcony 1",
+        "wide": false,
+        "key": "balcony-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/balcony-2-1600.webp",
+        "caption": "Balcony 2",
+        "src": "/assets/portfolio/chennai-1bhk/balcony-2-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/balcony-2-400.webp 400w, /assets/portfolio/chennai-1bhk/balcony-2-800.webp 800w, /assets/portfolio/chennai-1bhk/balcony-2-1600.webp 1600w",
+        "alt": "Balcony 2 — 1 BHK Flat Interiors",
+        "label": "Balcony 2",
+        "wide": false,
+        "key": "balcony-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/u1-1600.webp",
+        "caption": "Utility",
+        "src": "/assets/portfolio/chennai-1bhk/u1-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/u1-400.webp 400w, /assets/portfolio/chennai-1bhk/u1-800.webp 800w, /assets/portfolio/chennai-1bhk/u1-1600.webp 1600w",
+        "alt": "Utility — 1 BHK Flat Interiors",
+        "label": "Utility",
+        "wide": false,
+        "key": "u1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/chennai-1bhk/u2-1600.webp",
+        "caption": "Utility",
+        "src": "/assets/portfolio/chennai-1bhk/u2-800.webp",
+        "srcset": "/assets/portfolio/chennai-1bhk/u2-400.webp 400w, /assets/portfolio/chennai-1bhk/u2-800.webp 800w, /assets/portfolio/chennai-1bhk/u2-1600.webp 1600w",
+        "alt": "Utility — 1 BHK Flat Interiors",
+        "label": "Utility",
+        "wide": false,
+        "key": "u2"
+      }
+    ],
+    "nextProject": null
+  },
+  "rajajinagar-3bhk": {
+    "slug": "rajajinagar-3bhk",
+    "title": "3 BHK Residential House",
+    "location": "Rajajinagar",
+    "categoryLabel": "Residential",
+    "heroImage": {
+      "src": "/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-1600.webp",
+      "srcset": "/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-1600.webp 1600w",
+      "alt": "3 BHK Residential House — Residential interior design in Rajajinagar"
+    },
+    "facts": [
+      {
+        "label": "Location",
+        "value": "Rajajinagar"
+      },
+      {
+        "label": "Project type",
+        "value": "Residential"
+      },
+      {
+        "label": "Areas designed",
+        "value": "6"
+      },
+      {
+        "label": "Views in gallery",
+        "value": "9"
+      }
+    ],
+    "intros": [
+      "A three-bedroom family home in Rajajinagar, with each bedroom planned around a different occupant and the kitchen worked through three layout options before approval.",
+      "Designed and executed in-house by Babell Group — from space planning and 3D visualisation through material selection, installation and handover."
+    ],
+    "whatsappHref": "https://wa.me/919845325913?text=Hi%21%20I%20saw%20the%203%20BHK%20Residential%20House%20project%20on%20your%20website%20and%20would%20like%20to%20discuss%20something%20similar.",
+    "areas": [
+      "Master bedroom",
+      "Parents' bedroom",
+      "Kids' bedroom",
+      "Kids' study unit",
+      "Modular kitchen",
+      "TV unit"
+    ],
+    "shots": [
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-1600.webp",
+        "caption": "Master Bedroom",
+        "src": "/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-1600.webp 1600w",
+        "alt": "Master Bedroom — 3 BHK Residential House",
+        "label": "Master Bedroom",
+        "wide": false,
+        "key": "master-bedroom-mat"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/parents-bedroom-1600.webp",
+        "caption": "Parents' Bedroom",
+        "src": "/assets/portfolio/rajajinagar-3bhk/parents-bedroom-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/parents-bedroom-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/parents-bedroom-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/parents-bedroom-1600.webp 1600w",
+        "alt": "Parents' Bedroom — 3 BHK Residential House",
+        "label": "Parents' Bedroom",
+        "wide": false,
+        "key": "parents-bedroom"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/parents-bedroom-mat-1600.webp",
+        "caption": "Parents' Bedroom",
+        "src": "/assets/portfolio/rajajinagar-3bhk/parents-bedroom-mat-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/parents-bedroom-mat-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/parents-bedroom-mat-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/parents-bedroom-mat-1600.webp 1600w",
+        "alt": "Parents' Bedroom — 3 BHK Residential House",
+        "label": "Parents' Bedroom",
+        "wide": false,
+        "key": "parents-bedroom-mat"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/kids-bedroom-1600.webp",
+        "caption": "Kids' Bedroom",
+        "src": "/assets/portfolio/rajajinagar-3bhk/kids-bedroom-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/kids-bedroom-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/kids-bedroom-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/kids-bedroom-1600.webp 1600w",
+        "alt": "Kids' Bedroom — 3 BHK Residential House",
+        "label": "Kids' Bedroom",
+        "wide": false,
+        "key": "kids-bedroom"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/kids-bedroom-study-1600.webp",
+        "caption": "Kids' Bedroom — Study",
+        "src": "/assets/portfolio/rajajinagar-3bhk/kids-bedroom-study-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/kids-bedroom-study-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/kids-bedroom-study-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/kids-bedroom-study-1600.webp 1600w",
+        "alt": "Kids' Bedroom — Study — 3 BHK Residential House",
+        "label": "Kids' Bedroom — Study",
+        "wide": false,
+        "key": "kids-bedroom-study"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/kitchen-1-1600.webp",
+        "caption": "Kitchen 1",
+        "src": "/assets/portfolio/rajajinagar-3bhk/kitchen-1-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/kitchen-1-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/kitchen-1-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/kitchen-1-1600.webp 1600w",
+        "alt": "Kitchen 1 — 3 BHK Residential House",
+        "label": "Kitchen 1",
+        "wide": false,
+        "key": "kitchen-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/kitchen-2-1600.webp",
+        "caption": "Kitchen 2",
+        "src": "/assets/portfolio/rajajinagar-3bhk/kitchen-2-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/kitchen-2-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/kitchen-2-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/kitchen-2-1600.webp 1600w",
+        "alt": "Kitchen 2 — 3 BHK Residential House",
+        "label": "Kitchen 2",
+        "wide": false,
+        "key": "kitchen-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/kitchen-3-1600.webp",
+        "caption": "Kitchen 3",
+        "src": "/assets/portfolio/rajajinagar-3bhk/kitchen-3-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/kitchen-3-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/kitchen-3-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/kitchen-3-1600.webp 1600w",
+        "alt": "Kitchen 3 — 3 BHK Residential House",
+        "label": "Kitchen 3",
+        "wide": false,
+        "key": "kitchen-3"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/rajajinagar-3bhk/tv-unit-mat-1600.webp",
+        "caption": "TV Unit",
+        "src": "/assets/portfolio/rajajinagar-3bhk/tv-unit-mat-800.webp",
+        "srcset": "/assets/portfolio/rajajinagar-3bhk/tv-unit-mat-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/tv-unit-mat-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/tv-unit-mat-1600.webp 1600w",
+        "alt": "TV Unit — 3 BHK Residential House",
+        "label": "TV Unit",
+        "wide": false,
+        "key": "tv-unit-mat"
+      }
+    ],
+    "nextProject": null
+  },
+  "as-groups-podcast-studio": {
+    "slug": "as-groups-podcast-studio",
+    "title": "AS Groups & Construction — Podcast Studio",
+    "location": "Studio Design",
+    "categoryLabel": "Commercial",
+    "heroImage": {
+      "src": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-1600.webp",
+      "srcset": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-1600.webp 1600w",
+      "alt": "AS Groups & Construction — Podcast Studio — Commercial interior design in Studio Design"
+    },
+    "facts": [
+      {
+        "label": "Location",
+        "value": "Studio Design"
+      },
+      {
+        "label": "Project type",
+        "value": "Commercial"
+      },
+      {
+        "label": "Areas designed",
+        "value": "6"
+      },
+      {
+        "label": "Views in gallery",
+        "value": "14"
+      }
+    ],
+    "intros": [
+      "A commercial studio fit-out for AS Groups & Construction, covering the recording, editing and meeting spaces along with the client-facing reception areas.",
+      "Designed and executed in-house by Babell Group — from space planning and 3D visualisation through material selection, installation and handover."
+    ],
+    "whatsappHref": "https://wa.me/919845325913?text=Hi%21%20I%20saw%20the%20AS%20Groups%20%26%20Construction%20%E2%80%94%20Podcast%20Studio%20project%20on%20your%20website%20and%20would%20like%20to%20discuss%20something%20similar.",
+    "areas": [
+      "Podcast recording rooms",
+      "Conference room",
+      "Editing rooms",
+      "Waiting area",
+      "Reception",
+      "Toilet & lobby"
+    ],
+    "shots": [
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-1600.webp",
+        "caption": "Podcast Room 1",
+        "src": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-1600.webp 1600w",
+        "alt": "Podcast Room 1 — AS Groups & Construction — Podcast Studio",
+        "label": "Podcast Room 1",
+        "wide": false,
+        "key": "podcast-room-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/podcast-room-2-1600.webp",
+        "caption": "Podcast Room 2",
+        "src": "/assets/portfolio/as-groups-podcast-studio/podcast-room-2-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/podcast-room-2-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/podcast-room-2-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/podcast-room-2-1600.webp 1600w",
+        "alt": "Podcast Room 2 — AS Groups & Construction — Podcast Studio",
+        "label": "Podcast Room 2",
+        "wide": false,
+        "key": "podcast-room-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/conference-1-1600.webp",
+        "caption": "Conference 1",
+        "src": "/assets/portfolio/as-groups-podcast-studio/conference-1-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/conference-1-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/conference-1-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/conference-1-1600.webp 1600w",
+        "alt": "Conference 1 — AS Groups & Construction — Podcast Studio",
+        "label": "Conference 1",
+        "wide": false,
+        "key": "conference-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/conference-2-1600.webp",
+        "caption": "Conference 2",
+        "src": "/assets/portfolio/as-groups-podcast-studio/conference-2-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/conference-2-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/conference-2-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/conference-2-1600.webp 1600w",
+        "alt": "Conference 2 — AS Groups & Construction — Podcast Studio",
+        "label": "Conference 2",
+        "wide": false,
+        "key": "conference-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/conference-3-1600.webp",
+        "caption": "Conference 3",
+        "src": "/assets/portfolio/as-groups-podcast-studio/conference-3-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/conference-3-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/conference-3-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/conference-3-1600.webp 1600w",
+        "alt": "Conference 3 — AS Groups & Construction — Podcast Studio",
+        "label": "Conference 3",
+        "wide": false,
+        "key": "conference-3"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/conference-4-1600.webp",
+        "caption": "Conference 4",
+        "src": "/assets/portfolio/as-groups-podcast-studio/conference-4-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/conference-4-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/conference-4-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/conference-4-1600.webp 1600w",
+        "alt": "Conference 4 — AS Groups & Construction — Podcast Studio",
+        "label": "Conference 4",
+        "wide": false,
+        "key": "conference-4"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/editing-room-1-1600.webp",
+        "caption": "Editing Room 1",
+        "src": "/assets/portfolio/as-groups-podcast-studio/editing-room-1-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/editing-room-1-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/editing-room-1-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/editing-room-1-1600.webp 1600w",
+        "alt": "Editing Room 1 — AS Groups & Construction — Podcast Studio",
+        "label": "Editing Room 1",
+        "wide": false,
+        "key": "editing-room-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/editing-room-2-1600.webp",
+        "caption": "Editing Room 2",
+        "src": "/assets/portfolio/as-groups-podcast-studio/editing-room-2-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/editing-room-2-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/editing-room-2-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/editing-room-2-1600.webp 1600w",
+        "alt": "Editing Room 2 — AS Groups & Construction — Podcast Studio",
+        "label": "Editing Room 2",
+        "wide": false,
+        "key": "editing-room-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/editing-room-3-1600.webp",
+        "caption": "Editing Room 3",
+        "src": "/assets/portfolio/as-groups-podcast-studio/editing-room-3-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/editing-room-3-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/editing-room-3-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/editing-room-3-1600.webp 1600w",
+        "alt": "Editing Room 3 — AS Groups & Construction — Podcast Studio",
+        "label": "Editing Room 3",
+        "wide": false,
+        "key": "editing-room-3"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/waiting-area-1-1600.webp",
+        "caption": "Waiting Area 1",
+        "src": "/assets/portfolio/as-groups-podcast-studio/waiting-area-1-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/waiting-area-1-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/waiting-area-1-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/waiting-area-1-1600.webp 1600w",
+        "alt": "Waiting Area 1 — AS Groups & Construction — Podcast Studio",
+        "label": "Waiting Area 1",
+        "wide": false,
+        "key": "waiting-area-1"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/waiting-area-2-1600.webp",
+        "caption": "Waiting Area 2",
+        "src": "/assets/portfolio/as-groups-podcast-studio/waiting-area-2-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/waiting-area-2-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/waiting-area-2-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/waiting-area-2-1600.webp 1600w",
+        "alt": "Waiting Area 2 — AS Groups & Construction — Podcast Studio",
+        "label": "Waiting Area 2",
+        "wide": false,
+        "key": "waiting-area-2"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/waiting-area-3-1600.webp",
+        "caption": "Waiting Area 3",
+        "src": "/assets/portfolio/as-groups-podcast-studio/waiting-area-3-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/waiting-area-3-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/waiting-area-3-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/waiting-area-3-1600.webp 1600w",
+        "alt": "Waiting Area 3 — AS Groups & Construction — Podcast Studio",
+        "label": "Waiting Area 3",
+        "wide": false,
+        "key": "waiting-area-3"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/toilet-lobby-1600.webp",
+        "caption": "Toilet Lobby",
+        "src": "/assets/portfolio/as-groups-podcast-studio/toilet-lobby-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/toilet-lobby-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/toilet-lobby-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/toilet-lobby-1600.webp 1600w",
+        "alt": "Toilet Lobby — AS Groups & Construction — Podcast Studio",
+        "label": "Toilet Lobby",
+        "wide": false,
+        "key": "toilet-lobby"
+      },
+      {
+        "slug": "",
+        "full": "/assets/portfolio/as-groups-podcast-studio/toilet-1600.webp",
+        "caption": "Toilet",
+        "src": "/assets/portfolio/as-groups-podcast-studio/toilet-800.webp",
+        "srcset": "/assets/portfolio/as-groups-podcast-studio/toilet-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/toilet-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/toilet-1600.webp 1600w",
+        "alt": "Toilet — AS Groups & Construction — Podcast Studio",
+        "label": "Toilet",
+        "wide": false,
+        "key": "toilet"
+      }
+    ],
+    "nextProject": null
+  }
+}

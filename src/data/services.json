@@ -1,0 +1,166 @@
+[
+  {
+    "id": "residential-interior-design",
+    "category": "residential",
+    "num": "01",
+    "title": "Residential Interior Design",
+    "desc": "Transform your house into a beautiful, functional and personalised home with thoughtfully designed interiors.",
+    "detail": "We create customised interiors for apartments, villas and independent homes that reflect your lifestyle while maximising comfort, functionality and aesthetics. Every design is tailored to your space, budget and personal preferences.",
+    "features": [
+      "Space Planning & Layout Design",
+      "Living Room Interiors",
+      "Bedroom Interiors",
+      "Modular Kitchen Design",
+      "Wardrobe Design",
+      "False Ceiling Design",
+      "Lighting & Colour Planning",
+      "Custom Furniture Design"
+    ],
+    "image": "/assets/portfolio/zion-hills-villa/livinng-800.webp",
+    "srcset": "/assets/portfolio/zion-hills-villa/livinng-400.webp 400w, /assets/portfolio/zion-hills-villa/livinng-800.webp 800w, /assets/portfolio/zion-hills-villa/livinng-1600.webp 1600w",
+    "imageAlt": "Residential Interior Design by Babell Group",
+    "whatsappHref": "https://wa.me/919845325913?text=Hi%21%20I%27d%20like%20to%20know%20more%20about%20your%20Residential%20Interior%20Design%20service."
+  },
+  {
+    "id": "commercial-interior-design",
+    "category": "commercial",
+    "num": "02",
+    "title": "Commercial Interior Design",
+    "desc": "Professional interiors designed to enhance productivity, customer experience and brand identity.",
+    "detail": "From offices and retail stores to cafés, restaurants, clinics and showrooms, we design commercial spaces that are functional, visually appealing and aligned with your business goals.",
+    "features": [
+      "Office Interiors",
+      "Retail Showrooms",
+      "Cafés & Restaurants",
+      "Clinics & Salons",
+      "Reception & Waiting Areas",
+      "Workspace Planning",
+      "Brand-Focused Design",
+      "Customer Experience Enhancement"
+    ],
+    "image": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp",
+    "srcset": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-1600.webp 1600w",
+    "imageAlt": "Commercial Interior Design by Babell Group",
+    "whatsappHref": "https://wa.me/919845325913"
+  },
+  {
+    "id": "three-d-design-visualization",
+    "category": "design",
+    "num": "03",
+    "title": "3D Design & Visualization",
+    "desc": "Visualise your dream space before execution with realistic 3D designs and walkthroughs.",
+    "detail": "Our high-quality 3D renders allow you to explore your future interiors, make informed decisions and finalise every detail before execution begins.",
+    "features": [
+      "Photorealistic 3D Renders",
+      "Interior Walkthroughs",
+      "Material Preview",
+      "Lighting Simulation",
+      "Design Revisions",
+      "Realistic Visualization"
+    ],
+    "image": "/assets/portfolio/chennai-1bhk/tv-night-800.webp",
+    "srcset": "/assets/portfolio/chennai-1bhk/tv-night-400.webp 400w, /assets/portfolio/chennai-1bhk/tv-night-800.webp 800w, /assets/portfolio/chennai-1bhk/tv-night-1600.webp 1600w",
+    "imageAlt": "3D Design & Visualization by Babell Group",
+    "whatsappHref": "https://wa.me/919845325913"
+  },
+  {
+    "id": "space-planning-consultation",
+    "category": "design",
+    "num": "04",
+    "title": "Space Planning & Interior Consultation",
+    "desc": "Smart planning solutions that maximise space, functionality and comfort.",
+    "detail": "We analyse your space to create efficient layouts that improve movement, storage and usability while maintaining aesthetic appeal.",
+    "features": [
+      "Layout Planning",
+      "Furniture Placement",
+      "Space Optimization",
+      "Functional Design",
+      "Interior Consultation",
+      "Design Recommendations"
+    ],
+    "image": "/assets/portfolio/zion-hills-villa/entry-lobby-800.webp",
+    "srcset": "/assets/portfolio/zion-hills-villa/entry-lobby-400.webp 400w, /assets/portfolio/zion-hills-villa/entry-lobby-800.webp 800w, /assets/portfolio/zion-hills-villa/entry-lobby-1600.webp 1600w",
+    "imageAlt": "Space Planning & Interior Consultation by Babell Group",
+    "whatsappHref": "https://wa.me/919845325913"
+  },
+  {
+    "id": "modular-kitchen-design",
+    "category": "residential",
+    "num": "05",
+    "title": "Modular Kitchen Design",
+    "desc": "Modern, ergonomic kitchens designed for style, efficiency and everyday convenience.",
+    "detail": "We design customised modular kitchens that combine intelligent storage, premium finishes and practical layouts to suit your cooking style and space.",
+    "features": [
+      "L-Shaped Kitchens",
+      "U-Shaped Kitchens",
+      "Parallel Kitchens",
+      "Island Kitchens",
+      "Soft-Close Hardware",
+      "Smart Storage Solutions"
+    ],
+    "image": "/assets/portfolio/zion-hills-villa/kitchen-1-800.webp",
+    "srcset": "/assets/portfolio/zion-hills-villa/kitchen-1-400.webp 400w, /assets/portfolio/zion-hills-villa/kitchen-1-800.webp 800w, /assets/portfolio/zion-hills-villa/kitchen-1-1600.webp 1600w",
+    "imageAlt": "Modular Kitchen Design by Babell Group",
+    "whatsappHref": "https://wa.me/919845325913"
+  },
+  {
+    "id": "custom-furniture-wardrobe-design",
+    "category": "residential",
+    "num": "06",
+    "title": "Custom Furniture & Wardrobe Design",
+    "desc": "Tailor-made furniture crafted to complement your interiors and maximise every inch of space.",
+    "detail": "Our custom furniture solutions combine aesthetics, durability and functionality, ensuring every piece perfectly fits your home or commercial space.",
+    "features": [
+      "Wardrobes",
+      "TV Units",
+      "Crockery Units",
+      "Study Units",
+      "Office Furniture",
+      "Storage Solutions"
+    ],
+    "image": "/assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-800.webp",
+    "srcset": "/assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-400.webp 400w, /assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-800.webp 800w, /assets/portfolio/zion-hills-villa/master-bedroom-wardrobe-1600.webp 1600w",
+    "imageAlt": "Custom Furniture & Wardrobe Design by Babell Group",
+    "whatsappHref": "https://wa.me/919845325913"
+  },
+  {
+    "id": "turnkey-interior-execution",
+    "category": "commercial",
+    "num": "07",
+    "title": "Turnkey Interior Execution",
+    "desc": "Complete interior execution managed from start to finish for a seamless experience.",
+    "detail": "We handle project coordination, vendor management, installation and quality control to ensure your interiors are delivered with precision and professionalism.",
+    "features": [
+      "Site Supervision",
+      "Project Management",
+      "Material Coordination",
+      "Quality Inspections",
+      "Timely Execution",
+      "End-to-End Delivery"
+    ],
+    "image": "/assets/portfolio/zion-hills-villa/dining-800.webp",
+    "srcset": "/assets/portfolio/zion-hills-villa/dining-400.webp 400w, /assets/portfolio/zion-hills-villa/dining-800.webp 800w, /assets/portfolio/zion-hills-villa/dining-1600.webp 1600w",
+    "imageAlt": "Turnkey Interior Execution by Babell Group",
+    "whatsappHref": "https://wa.me/919845325913"
+  },
+  {
+    "id": "renovation-remodeling",
+    "category": "residential",
+    "num": "08",
+    "title": "Renovation & Remodeling",
+    "desc": "Upgrade existing spaces with modern designs, improved functionality and premium finishes.",
+    "detail": "Whether it is a single room or a complete property makeover, we transform outdated interiors into fresh, contemporary spaces without compromising functionality.",
+    "features": [
+      "Home Renovation",
+      "Office Renovation",
+      "Kitchen Remodeling",
+      "Bathroom Upgrades",
+      "Interior Makeovers",
+      "Space Reconfiguration"
+    ],
+    "image": "/assets/portfolio/chennai-1bhk/bathroom-1-800.webp",
+    "srcset": "/assets/portfolio/chennai-1bhk/bathroom-1-400.webp 400w, /assets/portfolio/chennai-1bhk/bathroom-1-800.webp 800w, /assets/portfolio/chennai-1bhk/bathroom-1-1600.webp 1600w",
+    "imageAlt": "Renovation & Remodeling by Babell Group",
+    "whatsappHref": "https://wa.me/919845325913"
+  }
+]

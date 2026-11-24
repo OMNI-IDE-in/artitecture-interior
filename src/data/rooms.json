@@ -1,0 +1,138 @@
+{
+  "zion": {
+    "img": "/assets/portfolio/zion-hills-villa/tv-unit-hero-1600.webp",
+    "srcset": "/assets/portfolio/zion-hills-villa/tv-unit-hero-800.webp 800w, /assets/portfolio/zion-hills-villa/tv-unit-hero-1600.webp 1600w",
+    "alt": "Zion Hills — 2 BHK Villa — Residential interior design by Babell Group, Bangarpet",
+    "project": "Zion Hills — 2 BHK Villa",
+    "place": "Bangarpet",
+    "href": "/projects/zion-hills-villa?img=tv-unit",
+    "spots": [
+      {
+        "num": "01",
+        "t": "TV Unit & Floating Console",
+        "left": "30%",
+        "top": "76%"
+      },
+      {
+        "num": "02",
+        "t": "Decorative Wall Panelling",
+        "left": "22%",
+        "top": "22%"
+      },
+      {
+        "num": "03",
+        "t": "Backlit Display Shelving",
+        "left": "68%",
+        "top": "42%"
+      },
+      {
+        "num": "04",
+        "t": "Wood Wall Panelling",
+        "left": "84%",
+        "top": "26%"
+      }
+    ]
+  },
+  "chennai": {
+    "img": "/assets/portfolio/chennai-1bhk/tv-night-hero-1600.webp",
+    "srcset": "/assets/portfolio/chennai-1bhk/tv-night-hero-800.webp 800w, /assets/portfolio/chennai-1bhk/tv-night-hero-1600.webp 1600w",
+    "alt": "1 BHK Flat Interiors — Residential interior design by Babell Group, Chennai",
+    "project": "1 BHK Flat Interiors",
+    "place": "Chennai",
+    "href": "/projects/chennai-1bhk?img=tv-night",
+    "spots": [
+      {
+        "num": "01",
+        "t": "Backlit Fluted TV Panel",
+        "left": "46%",
+        "top": "31%"
+      },
+      {
+        "num": "02",
+        "t": "Lit Display Shelving",
+        "left": "77%",
+        "top": "42%"
+      },
+      {
+        "num": "03",
+        "t": "Pooja Unit",
+        "left": "17%",
+        "top": "53%"
+      },
+      {
+        "num": "04",
+        "t": "Loft Storage",
+        "left": "30%",
+        "top": "13%"
+      }
+    ]
+  },
+  "rajajinagar": {
+    "img": "/assets/portfolio/rajajinagar-3bhk/kids-bedroom-hero-1600.webp",
+    "srcset": "/assets/portfolio/rajajinagar-3bhk/kids-bedroom-hero-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/kids-bedroom-hero-1600.webp 1600w",
+    "alt": "3 BHK Residential House — Residential interior design by Babell Group, Rajajinagar",
+    "project": "3 BHK Residential House",
+    "place": "Rajajinagar",
+    "href": "/projects/rajajinagar-3bhk?img=kids-bedroom",
+    "spots": [
+      {
+        "num": "01",
+        "t": "Sliding-Door Wardrobe",
+        "left": "33%",
+        "top": "40%"
+      },
+      {
+        "num": "02",
+        "t": "Loft Storage",
+        "left": "30%",
+        "top": "6%"
+      },
+      {
+        "num": "03",
+        "t": "Curved Display Niche",
+        "left": "64%",
+        "top": "45%"
+      },
+      {
+        "num": "04",
+        "t": "Base Drawer Bank",
+        "left": "28%",
+        "top": "81%"
+      }
+    ]
+  },
+  "podcast": {
+    "img": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-hero-1600.webp",
+    "srcset": "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-hero-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-hero-1600.webp 1600w",
+    "alt": "AS Groups & Construction — Podcast Studio — Commercial interior design by Babell Group, Studio Design",
+    "project": "AS Groups & Construction — Podcast Studio",
+    "place": "Studio Design",
+    "href": "/projects/as-groups-podcast-studio?img=podcast-room-1",
+    "spots": [
+      {
+        "num": "01",
+        "t": "Open Wall Shelving",
+        "left": "78%",
+        "top": "32%"
+      },
+      {
+        "num": "02",
+        "t": "Fluted Wall Panelling",
+        "left": "11%",
+        "top": "32%"
+      },
+      {
+        "num": "03",
+        "t": "Media Console",
+        "left": "27%",
+        "top": "70%"
+      },
+      {
+        "num": "04",
+        "t": "Ladder Shelving",
+        "left": "62%",
+        "top": "42%"
+      }
+    ]
+  }
+}
