@@ -1,3 +1,5 @@
+import { assetSrcSet, assetUrl } from "@/lib/asset";
+
 export const STUDIO = {
   name: "Babell Group",
   shortName: "BABELL",
@@ -672,9 +674,11 @@ export const PORTFOLIO_CARDS = [
     typeLabel: "Residential · Villa",
     title: "Zion Hills — 2 BHK Villa",
     photoCount: "14 photos",
-    src: "/assets/portfolio/zion-hills-villa/livinng-800.webp",
+    src: assetUrl("/assets/portfolio/zion-hills-villa/livinng-800.webp"),
     srcset:
-      "/assets/portfolio/zion-hills-villa/livinng-400.webp 400w, /assets/portfolio/zion-hills-villa/livinng-800.webp 800w, /assets/portfolio/zion-hills-villa/livinng-1600.webp 1600w",
+      assetSrcSet(
+        "/assets/portfolio/zion-hills-villa/livinng-400.webp 400w, /assets/portfolio/zion-hills-villa/livinng-800.webp 800w, /assets/portfolio/zion-hills-villa/livinng-1600.webp 1600w"
+      ) || "",
     alt: "Zion Hills — 2 BHK Villa — Residential interior design by Babell Group",
   },
   {
@@ -683,9 +687,11 @@ export const PORTFOLIO_CARDS = [
     typeLabel: "Residential · Chennai",
     title: "1 BHK Flat Interiors",
     photoCount: "25 photos",
-    src: "/assets/portfolio/chennai-1bhk/living-800.webp",
+    src: assetUrl("/assets/portfolio/chennai-1bhk/living-800.webp"),
     srcset:
-      "/assets/portfolio/chennai-1bhk/living-400.webp 400w, /assets/portfolio/chennai-1bhk/living-800.webp 800w, /assets/portfolio/chennai-1bhk/living-1600.webp 1600w",
+      assetSrcSet(
+        "/assets/portfolio/chennai-1bhk/living-400.webp 400w, /assets/portfolio/chennai-1bhk/living-800.webp 800w, /assets/portfolio/chennai-1bhk/living-1600.webp 1600w"
+      ) || "",
     alt: "1 BHK Flat Interiors — Residential interior design by Babell Group",
   },
   {
@@ -694,9 +700,11 @@ export const PORTFOLIO_CARDS = [
     typeLabel: "Residential · Rajajinagar",
     title: "3 BHK Residential House",
     photoCount: "9 photos",
-    src: "/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-800.webp",
+    src: assetUrl("/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-800.webp"),
     srcset:
-      "/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-1600.webp 1600w",
+      assetSrcSet(
+        "/assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-400.webp 400w, /assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-800.webp 800w, /assets/portfolio/rajajinagar-3bhk/master-bedroom-mat-1600.webp 1600w"
+      ) || "",
     alt: "3 BHK Residential House — Residential interior design by Babell Group",
   },
   {
@@ -705,9 +713,11 @@ export const PORTFOLIO_CARDS = [
     typeLabel: "Commercial · Studio Design",
     title: "AS Groups & Construction — Podcast Studio",
     photoCount: "14 photos",
-    src: "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp",
+    src: assetUrl("/assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp"),
     srcset:
-      "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-1600.webp 1600w",
+      assetSrcSet(
+        "/assets/portfolio/as-groups-podcast-studio/podcast-room-1-400.webp 400w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-800.webp 800w, /assets/portfolio/as-groups-podcast-studio/podcast-room-1-1600.webp 1600w"
+      ) || "",
     alt: "AS Groups & Construction — Podcast Studio — Commercial interior design by Babell Group",
   },
 ] as const;
@@ -729,7 +739,7 @@ export const DESIGN_DISCIPLINES = [
     id: "cat-residential",
     title: "Residential Interiors",
     badge: "12 specialities",
-    image: "/assets/images/hero-living-room.webp",
+    image: assetUrl("/assets/images/hero-living-room.webp"),
     alt: "Residential Interiors by Babell Group",
     items: [
       "Living Room Designs",
@@ -750,7 +760,7 @@ export const DESIGN_DISCIPLINES = [
     id: "cat-commercial",
     title: "Commercial Interiors",
     badge: "8 specialities",
-    image: "/assets/images/portfolio-office.webp",
+    image: assetUrl("/assets/images/portfolio-office.webp"),
     alt: "Commercial Interiors by Babell Group",
     items: [
       "Office Interiors",
@@ -767,7 +777,7 @@ export const DESIGN_DISCIPLINES = [
     id: "cat-exterior",
     title: "Exterior & Elevation",
     badge: "3 specialities",
-    image: "/assets/images/hero-secondary.webp",
+    image: assetUrl("/assets/images/hero-secondary.webp"),
     alt: "Exterior & Elevation by Babell Group",
     items: ["Residential Elevations", "Villa Exteriors", "Commercial Building Exteriors"],
   },
@@ -775,7 +785,7 @@ export const DESIGN_DISCIPLINES = [
     id: "cat-visualization",
     title: "3D Visualization",
     badge: "5 specialities",
-    image: "/assets/images/portfolio-dining.webp",
+    image: assetUrl("/assets/images/portfolio-dining.webp"),
     alt: "3D Visualization by Babell Group",
     items: [
       "Photorealistic 3D Renders",
@@ -792,14 +802,14 @@ export const FOUNDERS = [
     name: "Claire Laurent",
     role: "Principal Creative Director | Architecture & Spatial Atelier",
     exp: "12+ years",
-    photo: "/assets/images/founder-creative.jpg",
+    photo: assetUrl("/assets/images/founder-creative.jpg"),
     bio: "Leading Babell Group's architectural vision, Claire oversees spatial choreography, bespoke materiality, lighting architecture, and custom millwork direction. Trained in European classical proportion and contemporary Indian craftsmanship, she shapes quiet, enduring residences and flagship commercial environments.",
   },
   {
     name: "Devansh Kapoor",
     role: "Managing Partner | Turnkey Execution & Private Client Strategy",
     exp: "15+ years",
-    photo: "/assets/images/founder-managing.jpg",
+    photo: assetUrl("/assets/images/founder-managing.jpg"),
     bio: "With over 15 years directing complex architectural builds and luxury hospitality turnkeys, Devansh governs Babell Group's engineering standards, vendor atelier network, budget transparency, and punctual white-glove handover for every private residence and commercial flagship.",
   },
 ] as const;

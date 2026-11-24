@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { assetUrl } from "@/lib/asset";
 
 export function Preloader() {
   const [hidden, setHidden] = useState(false);
@@ -78,7 +79,7 @@ export function Preloader() {
 
       <div className="preloader__inner">
         <div className="preloader__mark">
-          <img src="/assets/images/logo.webp?v=2" alt="" width={96} height={96} style={{ borderRadius: "50%" }} />
+          <img src={assetUrl("/assets/images/logo.webp?v=2")} alt="" width={96} height={96} style={{ borderRadius: "50%" }} />
         </div>
 
         <div className="preloader__word">

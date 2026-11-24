@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BLOG_POSTS } from "@/data/catalog";
 import { BLOG_ARTICLE_CONTENT } from "@/data/blogArticles";
+import { assetUrl } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: "Journal & Design Guides",
@@ -20,7 +21,7 @@ export default function BlogPage() {
             fetchPriority="high"
             height={900}
             sizes="100vw"
-            src="/assets/images/hero-living-room.webp"
+            src={assetUrl("/assets/images/hero-living-room.webp")}
             width={1600}
           />
         </div>

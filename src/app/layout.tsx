@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 import { BackToTop } from "@/components/layout/BackToTop";
 import { RevealObserver } from "@/components/layout/RevealObserver";
 import { STUDIO } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -41,23 +42,23 @@ export const metadata: Metadata = {
       "Babell Group — complete architectural interior design and white-glove turnkey execution for luxury residences and commercial flagships across Bengaluru, Mumbai, and India.",
     type: "website",
     locale: "en_IN",
-    images: [{ url: "/assets/images/og-share.jpg", width: 1200, height: 630 }],
+    images: [{ url: assetUrl("/assets/images/og-share.jpg"), width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: `${STUDIO.name} — Design. Build. Deliver. Architecture & Bespoke Interior Atelier`,
     description:
       "Babell Group — architectural interior design and turnkey execution across Bengaluru, Mumbai, and India.",
-    images: ["/assets/images/og-share.jpg"],
+    images: [assetUrl("/assets/images/og-share.jpg")],
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/assets/images/logo.svg", type: "image/svg+xml" },
-      { url: "/assets/images/logo.png?v=2", sizes: "512x512", type: "image/png" },
+      { url: assetUrl("/favicon.ico"), sizes: "any" },
+      { url: assetUrl("/assets/images/logo.svg"), type: "image/svg+xml" },
+      { url: assetUrl("/assets/images/logo.png?v=2"), sizes: "512x512", type: "image/png" },
     ],
-    shortcut: "/favicon.ico",
-    apple: "/assets/images/logo.png?v=2",
+    shortcut: assetUrl("/favicon.ico"),
+    apple: assetUrl("/assets/images/logo.png?v=2"),
   },
 };
 

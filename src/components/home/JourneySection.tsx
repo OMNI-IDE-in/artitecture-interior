@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { PROCESS_PHASES } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 function PhaseIcon({ icon }: { icon: "compass" | "pen" | "wrench" | "key" }) {
   if (icon === "compass") {
@@ -128,7 +129,7 @@ export function JourneySection() {
           decoding="async"
           height={900}
           loading="lazy"
-          src="/assets/portfolio/chennai-1bhk/dining-night-1600.webp"
+          src={assetUrl("/assets/portfolio/chennai-1bhk/dining-night-1600.webp")}
           width={1600}
         />
       </div>

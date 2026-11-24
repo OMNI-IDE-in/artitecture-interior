@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { HERO_ROOMS, type RoomKey } from "@/data/catalog";
+import { assetUrl } from "@/lib/asset";
 
 interface HeroSectionProps {
   onRoomChange?: (message: string) => void;
@@ -110,7 +111,7 @@ export function HeroSection({ onRoomChange }: HeroSectionProps) {
                   alt=""
                   className="hp-avatar-img"
                   height={128}
-                  src="/assets/images/avatar-babell-wave.png?v=1"
+                  src={assetUrl("/assets/images/avatar-babell-wave.png?v=1")}
                   width={128}
                 />
               </div>

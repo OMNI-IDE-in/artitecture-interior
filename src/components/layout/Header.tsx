@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { NAV_ITEMS, STUDIO } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 export function Header() {
   const pathname = usePathname();
@@ -103,7 +104,7 @@ export function Header() {
         <nav className="nav container" aria-label="Primary">
           <Link href="/" className="nav__logo" id="nav-logo">
             <img
-              src="/assets/images/logo.webp?v=2"
+              src={assetUrl("/assets/images/logo.webp?v=2")}
               alt={STUDIO.name}
               className="nav__logo-img"
               width={48}
@@ -179,7 +180,7 @@ export function Header() {
       >
         <div className="mobile-nav__bar">
           <Link href="/" className="mobile-nav__brand" onClick={() => setMobileOpen(false)}>
-            <img src="/assets/images/logo.webp?v=2" alt="" width={40} height={40} style={{ borderRadius: "50%" }} />
+            <img src={assetUrl("/assets/images/logo.webp?v=2")} alt="" width={40} height={40} style={{ borderRadius: "50%" }} />
             <span>
               <b>BABELL</b>
               <i>Group</i>

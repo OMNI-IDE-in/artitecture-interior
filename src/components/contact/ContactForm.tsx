@@ -31,8 +31,11 @@ export function ContactForm() {
   const [message, setMessage] = useState("");
   const [website, setWebsite] = useState("");
 
-  const [submitting, setSubmitting] = useState(false);
-  const [statusMsg, setStatusMsg] = useState<{ type: "success" | "error"; text: string } | null>(null);
+  const [statusMsg, setStatusMsg] = useState<{
+    type: "success" | "error";
+    text: string;
+    waLink?: string;
+  } | null>(null);
 
   useEffect(() => {
     const qName = searchParams.get("name");
@@ -65,9 +68,14 @@ export function ContactForm() {
     }
   }, [searchParams]);
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setStatusMsg(null);
+
+    if (website) {
+      setStatusMsg({ type: "success", text: "Thank you for your enquiry." });
+      return;
+    }
 
     if (!name.trim() || !phone.trim()) {
       setStatusMsg({
@@ -77,56 +85,39 @@ export function ContactForm() {
       return;
     }
 
-    setSubmitting(true);
-    try {
-      const res = await fetch("/api/enquiry", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          name: name.trim(),
-          phone: phone.trim(),
-          email: email.trim(),
-          city: city.trim(),
-          service,
-          package: pkg,
-          budget,
-          message: message.trim(),
-          website,
-        }),
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        setStatusMsg({
-          type: "error",
-          text: data.error || "Unable to send your enquiry. Please try WhatsApp or call us directly.",
-        });
-      } else {
-        setStatusMsg({
-          type: "success",
-          text:
-            data.message ||
-            "Thank you! Your consultation request has been received. Our team will contact you shortly.",
-        });
-        setName("");
-        setPhone("");
-        setEmail("");
-        setCity("");
-        setService("");
-        setPkg("");
-        setBudget("");
-        setMessage("");
-      }
-    } catch {
-      setStatusMsg({
-        type: "error",
-        text: "Network error submitting form. Please call us or send your enquiry on WhatsApp.",
-      });
-    } finally {
-      setSubmitting(false);
-    }
+    const summaryLines = [
+      `Hi Babell Group! I'd like to book a consultation.`,
+      `Name: ${name.trim()}`,
+      `Phone: ${phone.trim()}`,
+      email.trim() ? `Email: ${email.trim()}` : "",
+      city.trim() ? `City: ${city.trim()}` : "",
+      service ? `Service: ${service}` : "",
+      pkg ? `Package: ${pkg.toUpperCase()}` : "",
+      budget ? `Budget: ${budget}` : "",
+      message.trim() ? `Notes: ${message.trim()}` : "",
+    ]
+      .filter(Boolean)
+      .join("\n");
+
+    const waLink = buildWhatsAppUrl(summaryLines);
+
+    setStatusMsg({
+      type: "success",
+      text: `Thank you, ${name.trim()}! Your consultation request is ready. Continue directly on WhatsApp or call us on ${STUDIO.phonePrimary}.`,
+      waLink,
+    });
+
+    setName("");
+    setPhone("");
+    setEmail("");
+    setCity("");
+    setService("");
+    setPkg("");
+    setBudget("");
+    setMessage("");
   };
 
-  const defaultWa = buildWhatsAppUrl("Hi! I'd like to know more about your interior design services.");
+  const defaultWa = buildWhatsAppUrl("Hi! I'd like to know more about Babell Group's interior design services.");
 
   return (
     <form className="contact-form" id="contactForm" onSubmit={handleSubmit} noValidate>
@@ -146,7 +137,19 @@ export function ContactForm() {
             color: "#161B19",
           }}
         >
-          {statusMsg.text}
+          <p>{statusMsg.text}</p>
+          {statusMsg.waLink ? (
+            <p style={{ marginTop: "8px" }}>
+              <a
+                href={statusMsg.waLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#2F5852", fontWeight: 700, textDecoration: "underline" }}
+              >
+                Send these details on WhatsApp →
+              </a>
+            </p>
+          ) : null}
         </div>
       ) : null}
 
@@ -315,14 +318,8 @@ export function ContactForm() {
       </div>
 
       <div className="form-submit">
-        <button
-          className="btn btn--accent btn--lg"
-          id="contact-submit-btn"
-          style={{ width: "100%" }}
-          type="submit"
-          disabled={submitting}
-        >
-          <span>{submitting ? "Sending…" : "Send Enquiry"}</span>
+        <button className="btn btn--accent btn--lg" id="contact-submit-btn" style={{ width: "100%" }} type="submit">
+          <span>Send Enquiry</span>
           <svg
             aria-hidden="true"
             fill="none"

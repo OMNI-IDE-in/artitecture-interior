@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { buildWhatsAppUrl, STUDIO } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 const HP_GUIDE = [
   {
@@ -137,7 +138,7 @@ export function MascotGuide({ customMessage }: { customMessage: string | null })
         }}
       >
         <img
-          src={`/assets/images/${pose}`}
+          src={assetUrl(`/assets/images/${pose}`)}
           alt=""
           className="hp-avatar-img"
           id="hpMpose"

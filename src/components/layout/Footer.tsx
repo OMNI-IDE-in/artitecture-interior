@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { buildWhatsAppUrl, STUDIO } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 export function Footer() {
   const defaultWa = buildWhatsAppUrl("Hi! I'd like to schedule a private consultation with Babell Group.");
@@ -44,7 +45,7 @@ export function Footer() {
             <div className="footer__brand">
               <Link href="/" className="footer__logo">
                 <img
-                  src="/assets/images/logo.webp?v=2"
+                  src={assetUrl("/assets/images/logo.webp?v=2")}
                   alt={STUDIO.name}
                   className="footer__logo-img"
                   width={52}

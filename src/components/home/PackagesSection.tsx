@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRef, useState } from "react";
 import { buildWhatsAppUrl, PACKAGES, type PackageId } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 const COMPARISON_GROUPS = [
   {
@@ -91,7 +92,7 @@ export function PackagesSection() {
                 alt=""
                 className="hp-avatar-img"
                 height={128}
-                src="/assets/images/avatar-babell-thumb.png?v=1"
+                src={assetUrl("/assets/images/avatar-babell-thumb.png?v=1")}
                 width={128}
               />
             </div>

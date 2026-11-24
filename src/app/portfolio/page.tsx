@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PortfolioInteractive } from "@/components/portfolio/PortfolioInteractive";
 import { buildWhatsAppUrl, DELIVERED_WORK_LIST, DESIGN_DISCIPLINES } from "@/data/site";
+import { assetSrcSet, assetUrl } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -22,8 +23,8 @@ export default function PortfolioPage() {
             fetchPriority="high"
             height={900}
             sizes="100vw"
-            src="/assets/portfolio/zion-hills-villa/livinng-1600.webp"
-            srcSet="/assets/portfolio/zion-hills-villa/livinng-400.webp 400w, /assets/portfolio/zion-hills-villa/livinng-800.webp 800w, /assets/portfolio/zion-hills-villa/livinng-1600.webp 1600w"
+            src={assetUrl("/assets/portfolio/zion-hills-villa/livinng-1600.webp")}
+            srcSet={assetSrcSet("/assets/portfolio/zion-hills-villa/livinng-400.webp 400w, /assets/portfolio/zion-hills-villa/livinng-800.webp 800w, /assets/portfolio/zion-hills-villa/livinng-1600.webp 1600w")}
             width={1600}
           />
         </div>

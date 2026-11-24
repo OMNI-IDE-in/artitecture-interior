@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PROBLEMS } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 export function ProblemsSection() {
   return (
@@ -16,7 +17,7 @@ export function ProblemsSection() {
                 alt=""
                 className="hp-avatar-img"
                 height={128}
-                src="/assets/images/avatar-babell-point.png?v=1"
+                src={assetUrl("/assets/images/avatar-babell-point.png?v=1")}
                 width={128}
               />
             </div>

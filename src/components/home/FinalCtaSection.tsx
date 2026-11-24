@@ -3,6 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useRef, useState } from "react";
 import { STUDIO } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 export function FinalCtaSection() {
   const router = useRouter();
@@ -47,7 +48,7 @@ export function FinalCtaSection() {
                 alt=""
                 className="hp-avatar-img"
                 height={128}
-                src="/assets/images/avatar-babell-yay.png?v=1"
+                src={assetUrl("/assets/images/avatar-babell-yay.png?v=1")}
                 width={128}
               />
             </div>

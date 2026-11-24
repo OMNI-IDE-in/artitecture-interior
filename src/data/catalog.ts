@@ -2,6 +2,7 @@ import roomsJson from "./rooms.json";
 import projectsJson from "./projects.json";
 import servicesJson from "./services.json";
 import blogJson from "./blog.json";
+import { assetSrcSet, assetUrl } from "@/lib/asset";
 
 export interface RoomSpot {
   num: string;
@@ -22,7 +23,19 @@ export interface HeroRoom {
 
 export type RoomKey = "zion" | "chennai" | "rajajinagar" | "podcast";
 
-export const HERO_ROOMS: Record<RoomKey, HeroRoom> = roomsJson as Record<RoomKey, HeroRoom>;
+const rawRooms = roomsJson as Record<RoomKey, HeroRoom>;
+export const HERO_ROOMS: Record<RoomKey, HeroRoom> = (Object.keys(rawRooms) as RoomKey[]).reduce(
+  (acc, key) => {
+    const r = rawRooms[key];
+    acc[key] = {
+      ...r,
+      img: assetUrl(r.img),
+      srcset: assetSrcSet(r.srcset) || "",
+    };
+    return acc;
+  },
+  {} as Record<RoomKey, HeroRoom>
+);
 
 export interface ProjectFact {
   label: string;
@@ -65,7 +78,34 @@ export interface ProjectData {
   } | null;
 }
 
-export const PROJECTS: Record<string, ProjectData> = projectsJson as Record<string, ProjectData>;
+const rawProjects = projectsJson as Record<string, ProjectData>;
+export const PROJECTS: Record<string, ProjectData> = Object.keys(rawProjects).reduce(
+  (acc, slug) => {
+    const p = rawProjects[slug];
+    acc[slug] = {
+      ...p,
+      heroImage: {
+        ...p.heroImage,
+        src: assetUrl(p.heroImage.src),
+        srcset: assetSrcSet(p.heroImage.srcset) || "",
+      },
+      shots: p.shots.map((shot) => ({
+        ...shot,
+        full: assetUrl(shot.full),
+        src: assetUrl(shot.src),
+        srcset: assetSrcSet(shot.srcset) || "",
+      })),
+      nextProject: p.nextProject
+        ? {
+            ...p.nextProject,
+            thumb: assetUrl(p.nextProject.thumb),
+          }
+        : null,
+    };
+    return acc;
+  },
+  {} as Record<string, ProjectData>
+);
 
 export interface ServiceItem {
   id: string;
@@ -82,7 +122,11 @@ export interface ServiceItem {
   whatsappHref: string;
 }
 
-export const SERVICES: ServiceItem[] = servicesJson as ServiceItem[];
+export const SERVICES: ServiceItem[] = (servicesJson as ServiceItem[]).map((s) => ({
+  ...s,
+  image: assetUrl(s.image),
+  srcset: assetSrcSet(s.srcset) || "",
+}));
 
 export interface BlogPost {
   slug: string;
@@ -93,4 +137,8 @@ export interface BlogPost {
   date: string;
 }
 
-export const BLOG_POSTS: BlogPost[] = blogJson as BlogPost[];
+export const BLOG_POSTS: BlogPost[] = (blogJson as BlogPost[]).map((b) => ({
+  ...b,
+  image: assetUrl(b.image),
+  localImage: b.localImage ? assetUrl(b.localImage) : undefined,
+}));

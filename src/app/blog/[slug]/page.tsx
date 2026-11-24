@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BLOG_POSTS } from "@/data/catalog";
 import { BLOG_ARTICLE_CONTENT } from "@/data/blogArticles";
+import { assetUrl } from "@/lib/asset";
 
 interface BlogArticlePageProps {
   params: Promise<{ slug: string }>;
@@ -39,7 +40,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
             fetchPriority="high"
             height={900}
             sizes="100vw"
-            src="/assets/images/hero-living-room.webp"
+            src={assetUrl("/assets/images/hero-living-room.webp")}
             width={1600}
           />
         </div>

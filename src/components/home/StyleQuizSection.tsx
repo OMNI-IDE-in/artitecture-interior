@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRef, useState } from "react";
 import { buildWhatsAppUrl, QUIZ_PROFILES, QUIZ_STEPS } from "@/data/site";
+import { assetUrl } from "@/lib/asset";
 
 type ProfileKey = keyof typeof QUIZ_PROFILES;
 
@@ -89,7 +90,7 @@ export function StyleQuizSection() {
                 alt=""
                 className="hp-avatar-img"
                 height={128}
-                src="/assets/images/avatar-babell-ask.png?v=1"
+                src={assetUrl("/assets/images/avatar-babell-ask.png?v=1")}
                 width={128}
               />
             </div>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { FOUNDERS, PORTFOLIO_CARDS, TRUST_METRICS, WHY_CHOOSE_US } from "@/data/site";
+import { assetSrcSet, assetUrl } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -91,13 +92,13 @@ export default function AboutPage() {
       <section className="page-hero page-hero--image">
         <div aria-hidden="true" className="page-hero__media">
           <picture>
-            <source srcSet="/assets/images/about-team.webp" type="image/webp" />
+            <source srcSet={assetUrl("/assets/images/about-team.webp")} type="image/webp" />
             <img
               alt=""
               decoding="async"
               fetchPriority="high"
               height={900}
-              src="/assets/images/about-team.jpg"
+              src={assetUrl("/assets/images/about-team.jpg")}
               width={1600}
             />
           </picture>
@@ -172,8 +173,8 @@ export default function AboutPage() {
                 height={600}
                 loading="lazy"
                 sizes="(max-width: 860px) 100vw, 46vw"
-                src="/assets/portfolio/zion-hills-villa/entry-lobby-800.webp"
-                srcSet="/assets/portfolio/zion-hills-villa/entry-lobby-400.webp 400w, /assets/portfolio/zion-hills-villa/entry-lobby-800.webp 800w, /assets/portfolio/zion-hills-villa/entry-lobby-1600.webp 1600w"
+                src={assetUrl("/assets/portfolio/zion-hills-villa/entry-lobby-800.webp")}
+                srcSet={assetSrcSet("/assets/portfolio/zion-hills-villa/entry-lobby-400.webp 400w, /assets/portfolio/zion-hills-villa/entry-lobby-800.webp 800w, /assets/portfolio/zion-hills-villa/entry-lobby-1600.webp 1600w")}
                 width={800}
               />
             </div>
